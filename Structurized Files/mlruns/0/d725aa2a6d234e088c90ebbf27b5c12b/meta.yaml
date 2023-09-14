@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/d725aa2a6d234e088c90ebbf27b5c12b/artifacts
+end_time: 1694729802311
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d725aa2a6d234e088c90ebbf27b5c12b
+run_name: gifted-penguin-472
+run_uuid: d725aa2a6d234e088c90ebbf27b5c12b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694729798846
+status: 4
+tags: []
+user_id: Maciej
