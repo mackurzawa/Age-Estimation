@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/c41c9ec1b5cf4d7ebf0bc3825afde66c/artifacts
+end_time: 1694801058368
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c41c9ec1b5cf4d7ebf0bc3825afde66c
+run_name: wise-sloth-623
+run_uuid: c41c9ec1b5cf4d7ebf0bc3825afde66c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694801057796
+status: 4
+tags: []
+user_id: Maciej

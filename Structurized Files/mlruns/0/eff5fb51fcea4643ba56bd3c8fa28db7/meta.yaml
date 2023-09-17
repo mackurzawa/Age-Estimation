@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/eff5fb51fcea4643ba56bd3c8fa28db7/artifacts
+end_time: 1694800870408
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eff5fb51fcea4643ba56bd3c8fa28db7
+run_name: whimsical-crab-679
+run_uuid: eff5fb51fcea4643ba56bd3c8fa28db7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694800869799
+status: 4
+tags: []
+user_id: Maciej

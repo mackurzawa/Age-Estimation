@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/b9771b87e0f74d9ea9a28e18b7f99bf6/artifacts
+end_time: 1694971670426
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b9771b87e0f74d9ea9a28e18b7f99bf6
+run_name: learned-flea-682
+run_uuid: b9771b87e0f74d9ea9a28e18b7f99bf6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694971105059
+status: 3
+tags: []
+user_id: Maciej

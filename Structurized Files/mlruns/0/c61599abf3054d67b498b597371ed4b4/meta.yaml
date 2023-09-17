@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/c61599abf3054d67b498b597371ed4b4/artifacts
+end_time: 1694803510677
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c61599abf3054d67b498b597371ed4b4
+run_name: wistful-grouse-764
+run_uuid: c61599abf3054d67b498b597371ed4b4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694802953995
+status: 3
+tags: []
+user_id: Maciej

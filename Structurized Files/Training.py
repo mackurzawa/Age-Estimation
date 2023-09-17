@@ -10,6 +10,7 @@ from tqdm import tqdm
 
 
 def train_model(model, train_dataloader, test_dataloader, device, class_weights):
+    model.to(device)
     loss_fn = nn.CrossEntropyLoss(weight=torch.Tensor(class_weights).to(device))
     print('class weights', class_weights)
     # loss_fn = nn.CrossEntropyLoss()
