@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/06ff3a2299d94e80ac04e7ba7b5714ae/artifacts
+end_time: 1695048832242
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 06ff3a2299d94e80ac04e7ba7b5714ae
+run_name: redolent-penguin-966
+run_uuid: 06ff3a2299d94e80ac04e7ba7b5714ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695048832096
+status: 4
+tags: []
+user_id: Maciej

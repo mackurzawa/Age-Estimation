@@ -1,4 +1,5 @@
-from Constants import AGE_THRESHOLDS, BATCH_SIZE, EPOCHS
+from Constants import AGE_THRESHOLDS
+from Parameters import BATCH_SIZE, EPOCHS, EARLY_STOP_CALLBACK_PATIENCE
 from Preprocess import calculate_class_weights
 from AgeImageDataset import AgeImageDataset
 from Model import Model
@@ -24,7 +25,7 @@ print('Device used for training:', device)
 model = Model(len(AGE_THRESHOLDS) - 1)
 
 with mlflow.start_run():
-    model, train_losses, test_losses, train_acc, test_acc = train_model(model, train_dataloader, test_dataloader, device, class_weights)
+    model, train_losses, test_losses, train_acc, test_acc = train_model(model, train_dataloader, test_dataloader, device, class_weights, EPOCHS, EARLY_STOP_CALLBACK_PATIENCE)
     mlflow.log_param("Epoch", EPOCHS)
     mlflow.log_param("Batch size", BATCH_SIZE)
 print('Training done!')

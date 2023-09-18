@@ -1,5 +1,3 @@
-from Constants import EPOCHS
-from Constants import EARLY_STOP_CALLBACK_PATIENCE
 from Callbacks import calculate_accuracy
 from Callbacks import EarlyStopCallback
 
@@ -11,13 +9,13 @@ import mlflow
 from tqdm import tqdm
 
 
-def train_model(model, train_dataloader, test_dataloader, device, class_weights):
+def train_model(model, train_dataloader, test_dataloader, device, class_weights, epochs, stop_patience):
     model.to(device)
 
     loss_fn = nn.CrossEntropyLoss(weight=torch.Tensor(class_weights).to(device))
     optimizer = optim.Adam(model.parameters())
 
-    early_stopper = EarlyStopCallback(patience=EARLY_STOP_CALLBACK_PATIENCE, min_delta=0)
+    early_stopper = EarlyStopCallback(patience=stop_patience, min_delta=0)
 
     train_losses = []
     test_losses = []
@@ -25,7 +23,7 @@ def train_model(model, train_dataloader, test_dataloader, device, class_weights)
     train_acc = []
     test_acc = []
 
-    for epoch in range(EPOCHS):
+    for epoch in range(epochs):
         train_losses_epoch = []
         test_losses_epoch = []
 
