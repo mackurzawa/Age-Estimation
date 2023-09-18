@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/ee516eab6766403a8955761b0c10517a/artifacts
+end_time: 1695054859828
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ee516eab6766403a8955761b0c10517a
+run_name: calm-fox-393
+run_uuid: ee516eab6766403a8955761b0c10517a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695054470775
+status: 3
+tags: []
+user_id: Maciej

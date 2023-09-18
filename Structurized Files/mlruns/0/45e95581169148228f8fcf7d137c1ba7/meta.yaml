@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/45e95581169148228f8fcf7d137c1ba7/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 45e95581169148228f8fcf7d137c1ba7
+run_name: grandiose-boar-873
+run_uuid: 45e95581169148228f8fcf7d137c1ba7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695053968507
+status: 1
+tags: []
+user_id: Maciej

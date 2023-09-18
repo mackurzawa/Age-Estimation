@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/344e84bb51ab49e8b3c19e6f19fb35de/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 344e84bb51ab49e8b3c19e6f19fb35de
+run_name: abundant-penguin-670
+run_uuid: 344e84bb51ab49e8b3c19e6f19fb35de
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695053194159
+status: 1
+tags: []
+user_id: Maciej

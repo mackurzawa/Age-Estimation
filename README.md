@@ -11,32 +11,43 @@ The project's code and resources are organized in a structured manner to allow f
 ```plaintext
 project-root/
 │
-├── data/
-│   ├── raw/
-│   │   ├── images/           # Raw image data
-│   │   ├── annotations.csv   # Age annotations
-│   └── processed/            # Preprocessed data
+├── Data/
+│   ├── Test/			# Test Data
+│   ├── Train/			# Train Data
+│   └── UTKFace/		# All Data
 │
-├── src/
-│   ├── data_loader.py        # Data loading utilities
-│   ├── model.py              # Machine learning model architecture
-│   ├── train.py              # Training script
-│   ├── evaluate.py           # Evaluation script
-│   └── utils.py              # Various utility functions
+├── Models/
+│   ├── model-??.??.?? ??;??	# Model #1 name
+│   ├── model-??.??.?? ??;??	# Model #2 name
+│   └── ...
 │
-├── notebooks/
-│   ├── exploration.ipynb     # Data exploration notebook
-│   └── evaluation.ipynb      # Model evaluation notebook
+├── Notebooks/
+│   ├── Face Detection.ipynb   	# Face Detection notebook
+│   ├── Training model.ipynb   	# Training model notebook
+│   └── Train_test_split.ipynb 	# Train test split notebook
 │
-├── mlflow/
-│   ├── experiment_logs/      # MLflow experiment logs
-│   └── screenshots/          # Screenshots documenting parameter tuning
+├── Structurized Files/
+│   ├── AgeImageDataset.py 	# File contains dataset class
+│   ├── Callbacks.py		# File contains all callbacks
+│   ├── Constants.py	 	# File contains all constants
+│   ├── main.py 		# Main file
+│   ├── Model.py	 	# File contains the model
+│   ├── Parameters.py	 	# File contains all parameters
+│   ├── Preprocess.py	 	# File contains all preprocessing
+│   ├── Saving.py	 	# File contains saving method
+│   └── Training.py		# File contains training method
 │
-├── requirements.txt          # Project dependencies
+├── mlruns/
+│   └─ experiment 1/
+│   	├── run 1/		# Run #1 logs
+│   	├── run 2/		# Run #2 logs
+│   	└── ...        
 │
-├── README.md                 # Project README (You're here!)
+├── requirements.txt		# Project dependencies
 │
-└── .gitignore                # Gitignore file
+├── README.md			# Project README (You're here!)
+│
+└── .gitignore			# Gitignore file
 ```
 
 ## Model Training
