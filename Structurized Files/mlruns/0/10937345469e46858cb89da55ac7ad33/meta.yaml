@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/10937345469e46858cb89da55ac7ad33/artifacts
+deleted_time: 1695046388541
 end_time: 1694730180564
 entry_point_name: ''
 experiment_id: '0'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 10937345469e46858cb89da55ac7ad33
 run_name: shivering-hound-78
 run_uuid: 10937345469e46858cb89da55ac7ad33

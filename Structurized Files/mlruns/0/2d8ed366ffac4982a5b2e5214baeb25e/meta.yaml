@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/2d8ed366ffac4982a5b2e5214baeb25e/artifacts
+deleted_time: 1695046388542
 end_time: 1694729922982
 entry_point_name: ''
 experiment_id: '0'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 2d8ed366ffac4982a5b2e5214baeb25e
 run_name: tasteful-auk-764
 run_uuid: 2d8ed366ffac4982a5b2e5214baeb25e

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/107f2e8f61884536ba32c2f18549f36a/artifacts
+end_time: 1694979188790
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 107f2e8f61884536ba32c2f18549f36a
+run_name: thoughtful-koi-858
+run_uuid: 107f2e8f61884536ba32c2f18549f36a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694978569081
+status: 3
+tags: []
+user_id: Maciej

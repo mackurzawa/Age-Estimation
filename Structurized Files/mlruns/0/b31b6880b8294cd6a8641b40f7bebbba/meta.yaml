@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/b31b6880b8294cd6a8641b40f7bebbba/artifacts
+deleted_time: 1695046388533
 end_time: 1694802614546
 entry_point_name: ''
 experiment_id: '0'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: b31b6880b8294cd6a8641b40f7bebbba
 run_name: efficient-foal-677
 run_uuid: b31b6880b8294cd6a8641b40f7bebbba

@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/eff5fb51fcea4643ba56bd3c8fa28db7/artifacts
+deleted_time: 1695046388537
 end_time: 1694800870408
 entry_point_name: ''
 experiment_id: '0'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: eff5fb51fcea4643ba56bd3c8fa28db7
 run_name: whimsical-crab-679
 run_uuid: eff5fb51fcea4643ba56bd3c8fa28db7

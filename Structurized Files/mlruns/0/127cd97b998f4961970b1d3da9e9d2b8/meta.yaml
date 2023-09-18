@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/127cd97b998f4961970b1d3da9e9d2b8/artifacts
+deleted_time: 1695046388525
 end_time: 1694807005928
 entry_point_name: ''
 experiment_id: '0'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 127cd97b998f4961970b1d3da9e9d2b8
 run_name: smiling-shrew-403
 run_uuid: 127cd97b998f4961970b1d3da9e9d2b8

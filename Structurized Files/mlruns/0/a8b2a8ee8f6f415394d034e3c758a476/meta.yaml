@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/a8b2a8ee8f6f415394d034e3c758a476/artifacts
+deleted_time: 1695046388517
+end_time: 1694977192124
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: a8b2a8ee8f6f415394d034e3c758a476
+run_name: whimsical-cat-934
+run_uuid: a8b2a8ee8f6f415394d034e3c758a476
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694977184040
+status: 4
+tags: []
+user_id: Maciej

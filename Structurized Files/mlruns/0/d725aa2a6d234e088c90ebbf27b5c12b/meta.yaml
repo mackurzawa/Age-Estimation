@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/d725aa2a6d234e088c90ebbf27b5c12b/artifacts
+deleted_time: 1695046388545
 end_time: 1694729802311
 entry_point_name: ''
 experiment_id: '0'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: d725aa2a6d234e088c90ebbf27b5c12b
 run_name: gifted-penguin-472
 run_uuid: d725aa2a6d234e088c90ebbf27b5c12b

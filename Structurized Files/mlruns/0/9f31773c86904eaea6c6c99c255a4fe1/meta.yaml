@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/9f31773c86904eaea6c6c99c255a4fe1/artifacts
+deleted_time: 1695046388515
+end_time: 1694977294950
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 9f31773c86904eaea6c6c99c255a4fe1
+run_name: upset-gnat-227
+run_uuid: 9f31773c86904eaea6c6c99c255a4fe1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694977264956
+status: 3
+tags: []
+user_id: Maciej

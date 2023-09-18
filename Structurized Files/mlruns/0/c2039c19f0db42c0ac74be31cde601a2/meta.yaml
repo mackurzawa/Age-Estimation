@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/c2039c19f0db42c0ac74be31cde601a2/artifacts
+deleted_time: 1695046388526
 end_time: 1694801594518
 entry_point_name: ''
 experiment_id: '0'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: c2039c19f0db42c0ac74be31cde601a2
 run_name: delicate-perch-216
 run_uuid: c2039c19f0db42c0ac74be31cde601a2

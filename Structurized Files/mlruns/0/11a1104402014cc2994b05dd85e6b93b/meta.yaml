@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/11a1104402014cc2994b05dd85e6b93b/artifacts
+end_time: 1695047820031
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 11a1104402014cc2994b05dd85e6b93b
+run_name: adorable-donkey-478
+run_uuid: 11a1104402014cc2994b05dd85e6b93b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695046406110
+status: 3
+tags: []
+user_id: Maciej

@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/e88aff64b6364c2eb223ffd2586c4f1f/artifacts
+deleted_time: 1695046388533
 end_time: 1694799683296
 entry_point_name: ''
 experiment_id: '0'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e88aff64b6364c2eb223ffd2586c4f1f
 run_name: angry-snake-226
 run_uuid: e88aff64b6364c2eb223ffd2586c4f1f

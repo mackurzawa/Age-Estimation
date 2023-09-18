@@ -1,5 +1,7 @@
 from Constants import EPOCHS
+from Constants import EARLY_STOP_CALLBACK_PATIENCE
 from Callbacks import calculate_accuracy
+from Callbacks import EarlyStopCallback
 
 import torch
 import torch.nn as nn
@@ -11,11 +13,11 @@ from tqdm import tqdm
 
 def train_model(model, train_dataloader, test_dataloader, device, class_weights):
     model.to(device)
-    loss_fn = nn.CrossEntropyLoss(weight=torch.Tensor(class_weights).to(device))
-    print('class weights', class_weights)
-    # loss_fn = nn.CrossEntropyLoss()
 
+    loss_fn = nn.CrossEntropyLoss(weight=torch.Tensor(class_weights).to(device))
     optimizer = optim.Adam(model.parameters())
+
+    early_stopper = EarlyStopCallback(patience=EARLY_STOP_CALLBACK_PATIENCE, min_delta=0)
 
     train_losses = []
     test_losses = []
@@ -53,7 +55,8 @@ def train_model(model, train_dataloader, test_dataloader, device, class_weights)
             pred = model(X)
             pred = pred.to(torch.float32)
             loss = loss_fn(pred, y)
-            test_losses_epoch.append(loss.item())
+            # test_losses_epoch.append(loss.item())
+            test_losses_epoch += [loss.item() for _ in range(len(X))]
 
             acc = calculate_accuracy(pred, y)
             test_acc_epoch.append(acc)
@@ -74,4 +77,17 @@ def train_model(model, train_dataloader, test_dataloader, device, class_weights)
         mlflow.log_metric("train_acc", train_acc[-1])
         mlflow.log_metric("test_acc", test_acc[-1])
 
+        passed_patience, model = early_stopper.early_stop(model, sum(test_losses_epoch) / len(test_losses_epoch))
+        if passed_patience:
+            break
+    test_losses_epoch = []
+    for X, y in tqdm(test_dataloader):
+        X, y = X.to(device), y.to(device)
+        pred = model(X)
+        pred = pred.to(torch.float32)
+        loss = loss_fn(pred, y)
+        # test_losses_epoch.append(loss.item())
+        test_losses_epoch += [loss.item() for _ in range(len(X))]
+
+    print(f'Test loss: {sum(test_losses_epoch) / len(test_losses_epoch)}')
     return model, train_losses, test_losses, train_acc, test_acc

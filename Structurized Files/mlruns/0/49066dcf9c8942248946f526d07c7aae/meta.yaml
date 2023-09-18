@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/49066dcf9c8942248946f526d07c7aae/artifacts
+deleted_time: 1695046388507
+end_time: 1694977715288
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 49066dcf9c8942248946f526d07c7aae
+run_name: smiling-fish-549
+run_uuid: 49066dcf9c8942248946f526d07c7aae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694977635561
+status: 3
+tags: []
+user_id: Maciej
