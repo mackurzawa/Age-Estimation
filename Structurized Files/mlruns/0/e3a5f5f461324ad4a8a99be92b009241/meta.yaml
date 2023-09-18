@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/e3a5f5f461324ad4a8a99be92b009241/artifacts
+end_time: 1695050118961
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e3a5f5f461324ad4a8a99be92b009241
+run_name: indecisive-ox-284
+run_uuid: e3a5f5f461324ad4a8a99be92b009241
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695049999552
+status: 3
+tags: []
+user_id: Maciej
