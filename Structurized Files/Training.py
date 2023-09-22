@@ -9,11 +9,15 @@ import mlflow
 from tqdm import tqdm
 
 
-def train_model(model, train_dataloader, test_dataloader, device, class_weights, epochs, stop_patience):
+def train_model(model, model_type, train_dataloader, test_dataloader, device, class_weights, epochs, stop_patience):
     model.to(device)
 
     loss_fn = nn.CrossEntropyLoss(weight=torch.Tensor(class_weights).to(device))
-    optimizer = optim.Adam(model.parameters())
+    if model_type == 'Simple':
+        optimizer = optim.Adam(model.parameters())
+    else:
+        # optimizer = optim.Adam(model.fc.parameters())
+        optimizer = optim.Adam(model.parameters())
 
     early_stopper = EarlyStopCallback(patience=stop_patience, min_delta=0)
 
@@ -64,6 +68,7 @@ def train_model(model, train_dataloader, test_dataloader, device, class_weights,
         train_acc.append(sum(train_acc_epoch) / len(train_acc_epoch))
         test_acc.append(sum(test_acc_epoch) / len(test_acc_epoch))
 
+        print()
         print(f'Epoch {epoch + 1} completed')
         print(f'Train loss: {train_losses[-1]}')
         print(f'Test loss: {test_losses[-1]}')

@@ -1,11 +1,12 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+import torchvision.models as models
 
 
-class Model(nn.Module):
+class SimpleModel(nn.Module):
     def __init__(self, num_classes):
-        super(Model, self).__init__()
+        super(SimpleModel, self).__init__()
         self.l1 = nn.Conv2d(3, 8, 5)
         self.l2 = nn.Conv2d(8, 64, 5)
         self.l3 = nn.Conv2d(64, 128, 5)
@@ -30,3 +31,40 @@ class Model(nn.Module):
         x = self.l7(x)
 
         return x.double()
+
+
+def create_resnet(class_number):
+    model = models.resnet50(pretrained=True)
+    for param in model.parameters():
+        param.requires_grad = False
+    model = nn.Sequential(
+        model,
+        nn.Linear(1000, 512),
+        nn.ReLU(),
+        nn.Dropout(0.5),
+        nn.Linear(512, 128),
+        nn.ReLU(),
+        nn.Dropout(0.5),
+        nn.Linear(128, class_number),
+        nn.Softmax()
+    )
+    return model
+
+
+def create_densenet(class_number):
+    model = models.densenet161(pretrained=True)
+    for param in model.parameters():
+        param.requires_grad = False
+    model = nn.Sequential(
+        model,
+        nn.Linear(1000, 512),
+        nn.Dropout(0.5),
+        nn.ReLU(),
+        nn.Linear(512, 128),
+        nn.Dropout(0.5),
+        nn.ReLU(),
+        nn.Linear(128, class_number),
+        nn.Dropout(0.25),
+        nn.Softmax()
+    )
+    return model
