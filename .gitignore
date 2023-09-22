@@ -2,3 +2,5 @@ age-estimation
 UTKFace.tar.gz
 .idea/
 .ipynb_checkpoints/
+**/Structurized Files/__pycache__/
+**/Web app/__pycache__/
