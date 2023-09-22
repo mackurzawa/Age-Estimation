@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/bf867bd3a185434e816aa8d2b8b8a440/artifacts
+end_time: 1695385276994
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bf867bd3a185434e816aa8d2b8b8a440
+run_name: likeable-doe-207
+run_uuid: bf867bd3a185434e816aa8d2b8b8a440
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695385276447
+status: 4
+tags: []
+user_id: Maciej

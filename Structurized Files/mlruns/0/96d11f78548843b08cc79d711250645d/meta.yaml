@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/96d11f78548843b08cc79d711250645d/artifacts
+end_time: 1695131605205
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 96d11f78548843b08cc79d711250645d
+run_name: suave-yak-666
+run_uuid: 96d11f78548843b08cc79d711250645d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695131360911
+status: 3
+tags: []
+user_id: Maciej

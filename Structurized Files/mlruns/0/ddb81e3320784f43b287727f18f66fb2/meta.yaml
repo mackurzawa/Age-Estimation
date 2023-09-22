@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/ddb81e3320784f43b287727f18f66fb2/artifacts
+end_time: 1695377030355
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ddb81e3320784f43b287727f18f66fb2
+run_name: flawless-sloth-268
+run_uuid: ddb81e3320784f43b287727f18f66fb2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695377030214
+status: 4
+tags: []
+user_id: Maciej

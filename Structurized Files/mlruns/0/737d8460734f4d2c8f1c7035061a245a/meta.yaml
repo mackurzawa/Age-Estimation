@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/737d8460734f4d2c8f1c7035061a245a/artifacts
+end_time: 1695387851256
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 737d8460734f4d2c8f1c7035061a245a
+run_name: funny-eel-944
+run_uuid: 737d8460734f4d2c8f1c7035061a245a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695386183556
+status: 3
+tags: []
+user_id: Maciej

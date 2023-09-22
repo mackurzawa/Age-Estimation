@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/8aa1642a44bf472fb8c1c23fd2d8c88f/artifacts
+end_time: 1695386126244
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8aa1642a44bf472fb8c1c23fd2d8c88f
+run_name: clumsy-crane-297
+run_uuid: 8aa1642a44bf472fb8c1c23fd2d8c88f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695386126094
+status: 4
+tags: []
+user_id: Maciej

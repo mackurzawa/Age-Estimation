@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/33a159edab724b09995c6de064d11ac7/artifacts
+end_time: 1695385054136
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 33a159edab724b09995c6de064d11ac7
+run_name: dashing-dog-523
+run_uuid: 33a159edab724b09995c6de064d11ac7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695385053964
+status: 4
+tags: []
+user_id: Maciej

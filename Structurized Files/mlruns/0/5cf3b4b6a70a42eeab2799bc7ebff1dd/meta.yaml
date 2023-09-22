@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/5cf3b4b6a70a42eeab2799bc7ebff1dd/artifacts
+end_time: 1695406161188
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5cf3b4b6a70a42eeab2799bc7ebff1dd
+run_name: shivering-swan-695
+run_uuid: 5cf3b4b6a70a42eeab2799bc7ebff1dd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695406158141
+status: 4
+tags: []
+user_id: Maciej

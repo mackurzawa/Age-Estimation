@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/2a1dbff79a7049f48238e438c213e17b/artifacts
+end_time: 1695415087890
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2a1dbff79a7049f48238e438c213e17b
+run_name: ambitious-asp-132
+run_uuid: 2a1dbff79a7049f48238e438c213e17b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695413372416
+status: 3
+tags: []
+user_id: Maciej

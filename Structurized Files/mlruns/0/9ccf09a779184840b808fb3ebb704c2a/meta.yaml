@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/9ccf09a779184840b808fb3ebb704c2a/artifacts
+end_time: 1695385026419
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9ccf09a779184840b808fb3ebb704c2a
+run_name: victorious-panda-579
+run_uuid: 9ccf09a779184840b808fb3ebb704c2a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695385026263
+status: 4
+tags: []
+user_id: Maciej

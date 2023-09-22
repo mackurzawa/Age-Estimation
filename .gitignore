@@ -3,4 +3,7 @@ UTKFace.tar.gz
 .idea/
 .ipynb_checkpoints/
 **/Structurized Files/__pycache__/
+**/Structurized Files/Models/DenseNet161/
+**/Structurized Files/Models/ResNet50/
 **/Web app/__pycache__/
+

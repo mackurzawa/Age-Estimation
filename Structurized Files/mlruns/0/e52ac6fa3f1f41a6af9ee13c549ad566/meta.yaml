@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/e52ac6fa3f1f41a6af9ee13c549ad566/artifacts
+end_time: 1695384051763
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e52ac6fa3f1f41a6af9ee13c549ad566
+run_name: capricious-foal-853
+run_uuid: e52ac6fa3f1f41a6af9ee13c549ad566
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695384048790
+status: 4
+tags: []
+user_id: Maciej

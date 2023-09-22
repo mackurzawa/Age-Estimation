@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/ec044e0f10ff4f3c870f8cb44876a55e/artifacts
+end_time: 1695385964271
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ec044e0f10ff4f3c870f8cb44876a55e
+run_name: salty-trout-62
+run_uuid: ec044e0f10ff4f3c870f8cb44876a55e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695385964126
+status: 4
+tags: []
+user_id: Maciej

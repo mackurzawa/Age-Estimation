@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Maciej/Desktop/Python%20projects/Age-Estimation/Structurized%20Files/mlruns/0/f5acf4ff169c45209178d9095660f62f/artifacts
+end_time: 1695133259353
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f5acf4ff169c45209178d9095660f62f
+run_name: clumsy-squirrel-656
+run_uuid: f5acf4ff169c45209178d9095660f62f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695131825296
+status: 3
+tags: []
+user_id: Maciej
