@@ -49,8 +49,8 @@ model = SimpleModel(len(CLASS_NAMES))
 #     nn.Dropout(0.5),
 #     nn.Linear(128, len(CLASS_NAMES))
 # )
-model_name = os.listdir(os.path.join('Structurized Files', 'Models'))[-1]
-MODEL_PATH = os.path.join('Structurized Files', 'Models', model_name)
+model_name = os.listdir(os.path.join('Structurized Files', 'Models', 'Simple'))[-1]
+MODEL_PATH = os.path.join('Structurized Files', 'Models', 'Simple', model_name)
 model.load_state_dict(torch.load(MODEL_PATH))
 print(f'Model {model_name} loaded')
 
