@@ -1,4 +1,5 @@
 import os
+import sys
 
 from Model import SimpleModel, create_resnet, create_densenet
 from Predict import predict
@@ -51,7 +52,9 @@ model = SimpleModel(len(CLASS_NAMES))
 # )
 model_name = os.listdir(os.path.join('Structurized Files', 'Models', 'Simple'))[-1]
 MODEL_PATH = os.path.join('Structurized Files', 'Models', 'Simple', model_name)
-model.load_state_dict(torch.load(MODEL_PATH))
+
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+model.load_state_dict(torch.load(MODEL_PATH, map_location=torch.device(device)))
 print(f'Model {model_name} loaded')
 
 st.title("Webcam Live Age Prediction")
@@ -62,15 +65,21 @@ st.text('App will detect the face and predict the age of the person in the video
 uploaded_video = st.file_uploader('Movie upload', accept_multiple_files=False, type=['mp4'])
 VIDEO_WINDOW = st.empty()
 camera = cv2.VideoCapture(0)
-time.sleep(.5)
+time.sleep(2)
 video_uploaded = False
 LAST_AGES_LIMIT = 10
 last_ages = [CLASS_NAMES[0] for _ in range(LAST_AGES_LIMIT)]
 
+if not camera.isOpened():
+    print('Camera is not working :(')
+    sys.exit()
+
 while run:
     _, frame = camera.read()
+    if frame is None:
+        st.title('Refresh Page! There was a problem with your webcam!')
+        sys.exit()
     frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-
     face = find_face(frame)
 
     if face is not None:
