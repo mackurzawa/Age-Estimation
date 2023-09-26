@@ -60,6 +60,15 @@ MLflow allowed us to track and visualize the training process, hyperparameter tu
 
 One of the unique challenges in this project was dealing with class imbalance, as age prediction naturally results in more samples in certain age ranges than others. To address this, a weighted loss function was utilized during training to give more emphasis to underrepresented age groups. This approach helped to balance the model's learning process and improve its performance.
 
+## Docker
+Only on Linux !!! (Obtaining webcam in Docker on Windows or Mac is outrageously difficult right now due to system regulations and priviledges)
+
+Building image
+sudo docker build -t age-estimation-image:1.0 .
+
+Run container
+sudo docker run -p 8501:8501 -it --device /dev/video0 age-estimation-image:1.0
+
 ## Conclusion
 
 This project demonstrates an effective approach to age prediction from facial images, taking into account the wide range of ages and class imbalances. The structured codebase and the use of MLflow for experimentation make it easy to reproduce and extend the work. Feel free to explore the provided notebooks for data exploration and model evaluation, and refer to the `src` directory for detailed code implementations.
