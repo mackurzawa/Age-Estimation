@@ -69,6 +69,8 @@ sudo docker build -t age-estimation-image:1.0 .
 Run container
 sudo docker run -p 8501:8501 -it --device /dev/video0 age-estimation-image:1.0
 
+Probably you'll need to refresh the page once in a while, because of problems with webcam integration.
+
 ## Conclusion
 
 This project demonstrates an effective approach to age prediction from facial images, taking into account the wide range of ages and class imbalances. The structured codebase and the use of MLflow for experimentation make it easy to reproduce and extend the work. Feel free to explore the provided notebooks for data exploration and model evaluation, and refer to the `src` directory for detailed code implementations.
