@@ -70,10 +70,10 @@ I have containerized the entire project using Docker for easy deployment and rep
 
 ```
 # Build the Docker image
-docker build -t age-estimation-image:1.0 .
+docker build -t lunch234/age-estimation:1.X .
 
 # Run the Docker container
-docker run -p 8501:8501 -it --device /dev/video0 age-estimation-image:1.0
+docker run -p 8501:8501 -it --device /dev/video0 lunch234/age-estimation:1.2
 ```
 
 Please note that this Docker setup is designed for Linux due to the simplicity of camera integration.
